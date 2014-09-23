@@ -1,23 +1,12 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: ptcc's Blog!
+tagline: A blog about frontend stuff (most of the time)
 ---
-
-
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-Here's a sample "posts list".
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span class="pull-right">{{ post.date | date_to_string }}</span><a href="{{ BASE_PATH }}{{ post.url }}"><h2>{{ post.title }}</h2></a><br> {{ post.content | strip_html | truncatewords:20}}</li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-nada
 
