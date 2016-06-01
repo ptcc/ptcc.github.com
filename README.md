@@ -1,3 +1,9 @@
+#Blog do Tiago no github :)
+Os meus links:
+[Serviços de Marketing e Design para PMEs]<https://www.prokubo.com/pt>
+[Orçamento para logotipo profissional]<http://blog.prokubo.com/pt/um-logotipo-profissional-nao-custa-5-euros>
+[Blog de Design, Marketing e Comunicação]<http://blog.prokubo.com/pt>
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
